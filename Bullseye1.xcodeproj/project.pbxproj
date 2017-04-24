@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4979BFD31EAD4134008FB9C5 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4979BFD21EAD4134008FB9C5 /* AboutViewController.swift */; };
 		84C2DE9A1EABA6D80011B9E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C2DE991EABA6D80011B9E3 /* AppDelegate.swift */; };
 		84C2DE9C1EABA6D80011B9E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C2DE9B1EABA6D80011B9E3 /* ViewController.swift */; };
 		84C2DE9F1EABA6D80011B9E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C2DE9D1EABA6D80011B9E3 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4979BFD21EAD4134008FB9C5 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		84C2DE961EABA6D80011B9E3 /* Bullseye1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bullseye1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84C2DE991EABA6D80011B9E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84C2DE9B1EABA6D80011B9E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 				84C2DE991EABA6D80011B9E3 /* AppDelegate.swift */,
 				84C2DE9B1EABA6D80011B9E3 /* ViewController.swift */,
 				84C2DE9D1EABA6D80011B9E3 /* Main.storyboard */,
+				4979BFD21EAD4134008FB9C5 /* AboutViewController.swift */,
 				84C2DEA01EABA6D80011B9E3 /* Assets.xcassets */,
 				84C2DEA21EABA6D80011B9E3 /* LaunchScreen.storyboard */,
 				84C2DEA51EABA6D80011B9E3 /* Info.plist */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4979BFD31EAD4134008FB9C5 /* AboutViewController.swift in Sources */,
 				84C2DE9C1EABA6D80011B9E3 /* ViewController.swift in Sources */,
 				84C2DE9A1EABA6D80011B9E3 /* AppDelegate.swift in Sources */,
 			);
