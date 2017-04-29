@@ -227,6 +227,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="ABr-Ao-bzQ" secondAttribute="trailing" constant="20" id="7aR-mm-rP6"/>
                             <constraint firstItem="ABr-Ao-bzQ" firstAttribute="centerX" secondItem="gmP-fD-dCn" secondAttribute="centerX" id="EXi-Qz-u6h"/>
                             <constraint firstItem="luR-Fl-3zP" firstAttribute="centerX" secondItem="gW8-Re-u4d" secondAttribute="centerX" id="Ik5-wt-WEr"/>
                             <constraint firstItem="luR-Fl-3zP" firstAttribute="top" secondItem="8Ss-jA-cp7" secondAttribute="bottom" id="dwj-dm-F5p"/>
