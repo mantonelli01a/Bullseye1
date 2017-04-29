@@ -18,21 +18,22 @@ class ViewController: UIViewController {
     @IBOutlet weak var targetLabel: UILabel!
     @IBOutlet weak var scoreLabel: UILabel!
     @IBOutlet weak var roundLabel: UILabel!
+
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         startNewGame()
         updateLabels()
-        let thumbImageNormal = UIImage(named: "SliderThumb-Normal")!
+        let thumbImageNormal = #imageLiteral(resourceName: "SliderThumb-Normal")
         slider.setThumbImage(thumbImageNormal, for: .normal)
-        let thumbImageHighlighted = UIImage(named: "SliderThumb-Highlighted")!
+        let thumbImageHighlighted = #imageLiteral(resourceName: "SliderThumb-Highlighted")
         slider.setThumbImage(thumbImageHighlighted, for: .highlighted)
         let insets = UIEdgeInsets(top: 0, left: 14, bottom: 0, right: 14)
-        let trackLeftImage = UIImage(named: "SliderTrackLeft")!
+        let trackLeftImage = #imageLiteral(resourceName: "SliderTrackLeft")
         let trackerLeftResizable = trackLeftImage.resizableImage(withCapInsets: insets)
         slider.setMinimumTrackImage(trackerLeftResizable, for: .normal)
-        let trackRightImage = UIImage(named: "SliderTrackRight")!
+        let trackRightImage = #imageLiteral(resourceName: "SliderTrackRight")
         let trackRightResizable = trackRightImage.resizableImage(withCapInsets: insets)
         slider.setMaximumTrackImage(trackRightResizable, for: .normal)
         // Do any additional setup after loading the view, typically from a nib.
